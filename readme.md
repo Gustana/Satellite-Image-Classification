@@ -35,12 +35,12 @@
 
 # Conclusion
 
-- This model able to achieve 94% accuracy across 4 classes.
-- Which means, out of 100 images, this model correctly classify 94 of them
+- This model able to achieve 95% accuracy across 4 classes.
+- Which means, out of 100 images, this model correctly classify 95 of them
 
-- Despite this model able to meet the minimum requirement on accuracy score, it's still overfitted.
-- **Thus, 94% accuracy on unseen data can't be trusted blindly.**
-- **The model can be improved by applying regularization method and add more images for training and validation to overcome overfitting.**
+- Despite this model being able to meet the minimum requirement for accuracy, the validation curves for accuracy and loss are highly volatile.
+- **Thus, 95% accuracy on unseen data can't be trusted blindly.**
+- **The model can be improved by adding more images for training and validation sets**
 
 # Deployment
 
