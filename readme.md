@@ -17,8 +17,8 @@
 
 |     Layer       |     Output Shape     |    Param    |
 |  ------------   | :------------------- | :---------- |
-|  Convolution 2D | (None, 64, 64, 128)  |   1,664     |
-|  AVG Pooling 2D | (None, 32, 32, 128)  |     0       |
+|  Convolution 2D | (None, 64, 64, 128)  |  1,664      |
+|  AVG Pooling 2D | (None, 32, 32, 128)  |  0          |
 |  Convolution 2D | (None, 16, 16, 256)  |  131,328    |
 |  Flatten        | (None, 65,536)       |  0          |
 |  Dense          | (None, 512)          |  33,554,944 |
@@ -28,9 +28,9 @@
 
 |                | Accuracy | Loss | Num. of Images |
 |  ------------  | :------- | :--- | :------------- |
-|  Training Set  |    90%   | 25%  |      4,280     |
-| Validation Set |    87%   | 38%  |      1,070     |
-|    Test Set    |    94%   |  -   |       281      |
+|  Training Set  |    89%   | 25%  |      4,280     |
+| Validation Set |    93%   | 28%  |      1,070     |
+|    Test Set    |    95%   |  -   |       281      |
 
 
 # Conclusion
